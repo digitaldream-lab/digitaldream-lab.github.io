@@ -38,6 +38,17 @@ body {
   border-radius: 100%;
 }
 
+.feature-icon-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 100%;
+}
+
 .btn-social-media {
   color: #31316a;
   background-color: #cdcfdf;
