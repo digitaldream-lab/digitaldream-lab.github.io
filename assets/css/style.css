@@ -13,7 +13,7 @@ body {
 
 .hr-dotted {
   border-top: 1px dotted;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -87,3 +87,19 @@ body {
 .footer .link a:hover {
   color: #0d6efd;
 }
+
+.reveal {
+    /* Gaya awal: Tersembunyi dan sedikit bergeser ke bawah */
+    opacity: 0;
+    transform: translateY(50px);
+    
+    /* Atur durasi dan jenis transisi untuk animasi yang mulus */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.reveal.visible {
+    /* Gaya akhir: Terlihat dan di posisi normal */
+    opacity: 1;
+    transform: translateY(0);
+}
+
